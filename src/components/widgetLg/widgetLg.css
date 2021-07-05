@@ -1,0 +1,76 @@
+.widgetLg {
+    flex: 2;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+}
+.widgetLgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.widgetLgButton {
+    padding: 7px 10px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.widgetLgButton.Approved {
+    background-color: lightgreen;
+    color: lightcoral;
+}
+.widgetLgButton.Declined {
+    background-color: lightpink;
+    color: rgb(243, 35, 139);
+}
+.widgetLgButton.Cleared {
+    background-color: lightskyblue;
+    color: red;
+    
+}
+.widgetLgButton.Pending {
+    background-color: lightcoral;
+}
+
+.widgetLgTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLgTh{
+    text-align: left;
+}
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLgName{
+    margin-left: 20px;
+}
+.widgetLgDate,.widgetLgAmount{
+    color: #555;
+    font-size: 15px;
+}
+.widgetLgUser{
+    padding: 10px;
+}
+.widgetLgTr:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
